@@ -36,5 +36,37 @@ public class Main {
         } else {
             System.out.println("D: La mia soluzione è false");
         }
+
+        //Oppure altro modo per controllare la mia soluzione:
+
+        boolean A = 2 <= 2 && !true;
+        boolean B = !false && 3 > 2;
+        boolean C = !(!t || f);
+        boolean D = 6 > 6 ^ !(true && true);
+
+        if(A == false) {
+            System.out.println("A: La mia soluzione è corretta");
+        } else {
+            System.out.println("A: La mia soluzione è errata");
+        }
+
+        if(B == true) {
+            System.out.println("B: La mia soluzione è corretta");
+        } else {
+            System.out.println("B: La mia soluzione è errata");
+        }
+
+        if(C == true) {
+            System.out.println("C: La mia soluzione è corretta");
+        } else {
+            System.out.println("C: La mia soluzione è errata");
+        }
+
+        if(D == false) {
+            System.out.println("D: La mia soluzione è corretta");
+        } else {
+            System.out.println("D: La mia soluzione è errata");
+        }
+
     }
 }
