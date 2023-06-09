@@ -11,31 +11,30 @@ public class Main {
     public static void main(String[] args) {
 
         if(2 <= 2 && !true) {
-            System.out.println("Il risultato è true");
+            System.out.println("A: Il risultato è true");
         } else {
-            System.out.println("La mia soluzione è false");
+            System.out.println("A: La mia soluzione è false");
         }
 
         if(!false && 3 > 2) {
-            System.out.println("La mia soluzione è true");
-
+            System.out.println("B: La mia soluzione è true");
         } else {
-            System.out.println("Il risultato è false");
+            System.out.println("B: Il risultato è false");
         }
 
         boolean t = true;
         boolean f = false;
 
         if(!(!t || f)) {
-            System.out.println("La mia soluzione è true");
+            System.out.println("C: La mia soluzione è true");
         } else {
-            System.out.println("Il risultato è false");
+            System.out.println("C: Il risultato è false");
         }
 
         if(6 > 6 ^ !(true && true)) {
-            System.out.println("il risultato è true");
+            System.out.println("D: Il risultato è true");
         } else {
-            System.out.println("La mia soluzione è false");
+            System.out.println("D: La mia soluzione è false");
         }
     }
 }
